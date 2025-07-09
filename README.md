@@ -3,7 +3,7 @@
 > Fine-tune large language models (LLMs) like Mistral or LLaMA efficiently on custom instruction datasets using [Unsloth](https://github.com/unslothai/unsloth), [Hugging Face Transformers](https://huggingface.co/docs/transformers), and export to GGUF for fast inference via `llama.cpp`.
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
-![License](https://img.shields.io/github/license/your-username/llm-fine-tuning)
+![License](https://img.shields.io/github/license/himaenshuu/llm-fine-tuning)
 ![Status](https://img.shields.io/badge/status-active-success)
 
 ---
