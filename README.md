@@ -74,3 +74,11 @@ After training completes, export the model to `.gguf` format:
 
 ```python
 model.save_pretrained_gguf("gguf_model/")
+
+This model can be directly used with:
+
+- [`llama.cpp`](https://github.com/ggerganov/llama.cpp) — C++ inference engine for LLMs using GGUF
+- [`llamafile`](https://github.com/Mozilla-Ocho/llamafile) — Portable single-file executable LLM inference
+- [`ctransformers`](https://github.com/marella/ctransformers) — Python bindings for GGUF-based model serving
+- Any tool supporting the **GGUF format** for quantized transformer inference
+
