@@ -32,17 +32,6 @@ This project demonstrates how to fine-tune an LLM on a custom instruction-based 
 
 ---
 
-## 📂 Project Structure
-
-```bash
-├── llm-fine-tuning.ipynb      # Main notebook for fine-tuning & export
-├── gguf_model/                # Contains exported .gguf quantized model
-├── outputs/                   # Intermediate model checkpoints
-├── data/                      # Custom instruction dataset
-└── README.md                  # This file
-
----
-
 ## ✅ Features
 
 - 🔧 Fine-tunes **Mistral** or **LLaMA** models with minimal VRAM requirements
