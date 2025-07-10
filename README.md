@@ -57,9 +57,3 @@ This project demonstrates how to fine-tune an LLM on a custom instruction-based 
 
 ---
 
-## 💾 GGUF Model Export
-
-After training completes, export the model to `.gguf` format:
-
-```python
-model.save_pretrained_gguf("gguf_model/")
